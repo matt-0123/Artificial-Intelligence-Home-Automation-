@@ -1,2 +1,2 @@
-# rchas
+# RCHAS
 Remote Control Home Appliance System
