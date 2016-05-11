@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Remote Control Home Appliances</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+<style type="text/css">
+#footer {
+ 
+	width:100%;
+	height:30px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-image:url(images/test.gif);
+	background-repeat:repeat-x;
+	    
+}
+.style1 {
+	color: #636464;
+	font-weight: bold;
+	font-family: "Copperplate Gothic Light";
+}
+</style>
+
+
+<script type="text/javascript">
+	function validate(thisform)
+	{
+		with (thisform)
+		{
+			if (validate_required(unm,"User Name must be filled out!!!")==false)
+		    {unm.focus();return false;}
+			if (validate_required(psrd,"Password must be filled out!!!")==false)
+		    {psrd.focus();return false;}							
+		 	 return true;
+		}
+	}
+	function validate_required(field,alerttxt)
+	{
+		with (field)
+		{
+			if (value==null||value=="")
+		    {
+			    alert(alerttxt);return false;
+		    }
+			else
+			{
+			return true;
+		    }
+		}
+	}
+	</script>
+
+<style>
+body
+{ 
+background-image:url('Imgs/bck.jpg');
+background-repeat:no-repeat;
+background-size:100%;
+background-position:left; 
+}
+h3 {text-shadow:2px 2px #808080; color:#000000}
+.style5 {color: #0000FF}
+</style>
+
+</head>
+
+<body >
+
+  
+<div style="height:50px;"></div>
+
+
+</div>
+
+<div align="center" class="style1" style="font-size:28px;">
+  <p ><h3> Remote Control </h3>
+  <h3>Home Appliance  System </h3></p>
+</div>
+<div style="height:25px;"></div>
+<div align="center">
+
+<table ><tr><td>
+<img src="Imgs/Home-icon.png" width="229" height="229" />
+</td>
+<td>
+<form name="login" method="post" action="loginCheck.php" onSubmit="return validate(this);">
+<table background="images/123.png" width="418px;" height="200px;"  >
+
+<tr><td>&nbsp;</td></tr>
+<tr >
+	<td style="width:40px;"></td>
+	<td style="width:100px;"><strong>User Name</strong></td>
+	<td style="width:25px;" align="center"><strong>:</strong></td>
+	<td><input type="text" name="uname" width="150px;" /></td>
+</tr>
+
+<tr>
+	<td></td>
+	<td><strong>Password</strong></td>
+    	<td style="width:25px;" align="center"><strong>:</strong></td>
+    <td><input type="password" name="pswrd" width="150px;"/></td>
+</tr>
+
+<tr align="center">
+	<td></td>
+	<td></td>
+    <td></td>
+   	<td><input type="submit" value="Login"/></td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+<caption>
+<span class="style5">
+<marquee behavior="alternate">
+Login to your home to control your applicances.....
+</marquee>
+</span>
+</caption>
+</table>
+</form>
+</td>
+
+<td>
+<img src="Imgs/WWW.png" width="170" height="170" /></td>
+
+</tr>
+
+</table>
+<p><img src="Imgs/1.png" width="149" height="149" /></p>
+</div>
+<center>
+</center>
+<div id="footer" align="center"><b>Powered by Bimodh Jo Mathew</b></div>
+
+</body>
+</html>
