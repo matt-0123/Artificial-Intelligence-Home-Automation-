@@ -56,6 +56,7 @@ h2 {text-shadow:1px 1px #808080; }
 
 
 <script type="text/javascript">
+//function for toggling device 1	
 function fnDev1()
 {
 	//Set the Configuration
@@ -82,7 +83,7 @@ function fnDev1()
 		//wait(1000);  
 		document.location.reload();
 }
-
+//function for toggling device 2
 function fnDev2()
 {
 	//Set the Configuration
@@ -108,7 +109,7 @@ function fnDev2()
 		xmlhttp.send("cmd=T");		
 		document.location.reload();
 }
-
+//function for toggling device 3
 function fnDev3()
 {
 	//Set the Configuration
@@ -134,7 +135,7 @@ function fnDev3()
 		xmlhttp.send("cmd=U");		
 		document.location.reload();
 }
-
+//function for toggling device 4
 function fnDev4()
 {
 	//Set the Configuration
@@ -193,6 +194,7 @@ function fnDev4()
 
 
 <?php
+//Get the inital state values for the gpio pins	
 exec("cat /sys/class/gpio/gpio60/value", $gp1, $return);
 exec("cat /sys/class/gpio/gpio50/value", $gp2, $return);
 exec("cat /sys/class/gpio/gpio48/value", $gp3, $return);
