@@ -25,7 +25,7 @@ This is a prototype for such a house. There is an assumption that the house has 
   Do you want to call your house a name? Register a domain for your house. And there, once we go to your domain and login to your house, we are virtually logging into your house and all the appliances at your home will be listed here. Now we can turn these devices ON or OFF from a remote location.
 
 #Is that it? 
-  Absolutely no, here comes the beauty of Artificial Intelligence. The AI module sits and learns what are your daily routines. And once it teaches its system, it will then automate this process. All of your routines becomes a part of this system and it takes care of your house and appliance. Also, add different sensors like light sensor, temperature sensor, pressure sensor to actively monitor and show these information within the virtual house. 
+  Absolutely no, here comes the beauty of Artificial Intelligence. The AI module sits and learns what are your daily routines. And once it teaches its system, it will then automate this process. All of your routines becomes a part of this system and it takes care of your house and appliance. Also, add different sensors like light sensor, temperature sensor, pressure sensor to actively monitor and show these information and control them within the virtual house. 
 
   
   
