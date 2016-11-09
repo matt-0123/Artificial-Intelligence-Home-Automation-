@@ -1,6 +1,6 @@
 # RCHAS - Remote Control Home Appliance System
 
-This is a project developed as a part of my Masters program in Computer Science from California State University for Artificial Intelligence.
+This is a project developed as a part of my Masters program in Computer Science from California State University for Artificial Intelligence course.
 
 The idea of this project is to automate the electronic and electrical devices at home and remotely control it from elsewhere in the world. Sounds crazy?
 
@@ -8,7 +8,7 @@ The idea of this project is to automate the electronic and electrical devices at
 
   - Turns on the lights my the time you wake up
   - Coffee being made by the time you fresh up
-  - Break fast being cooked ready
+  - Breakfast being cooked ready
   - Remind about shopping lists
   - Turn ON or OFF the appliances even when you are outside of your house
   - Automated temperature control
