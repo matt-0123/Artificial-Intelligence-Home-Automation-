@@ -7,16 +7,16 @@ The idea of this project is to automate the electronic and electrical devices at
 
 Think about a house that
 
-  Turns on the lights my the time you wake up
-  Coffee being made by the time you fresh up
-  Break fast being cooked ready
-  Remind about shopping lists
-  Turn ON or OFF the appliances even when you are outside of your house
-  Automated temperature control
-  Automated light ambience control
-  Dinner ready by the time you reach back home from office
-  Securely monitor your house
-  And the list goes on and on
+  - Turns on the lights my the time you wake up
+  - Coffee being made by the time you fresh up
+  - Break fast being cooked ready
+  - Remind about shopping lists
+  - Turn ON or OFF the appliances even when you are outside of your house
+  - Automated temperature control
+  - Automated light ambience control
+  - Dinner ready by the time you reach back home from office
+  - Securely monitor your house
+  - And the list goes on and on
 
 Who wouldn't like to live in such a house?
 
